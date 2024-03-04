@@ -45,6 +45,7 @@
 #contenedorBanner{
     color:#FFF;
     padding:40px;
+    height: 400px;
 }
 
 .bannerTitle{
@@ -58,6 +59,24 @@
 
 .bannerPicture{
     width:400px;   
+}
+
+.bannerButton{
+    background-color: #f08e00;
+    color:#FFF;
+    font-weight: bold;
+    border: 2px solid #D6B440;
+}
+
+.bannerButton:hover{
+    background-color: transparent;
+    color:#D6B440;
+    font-weight: bold;
+    border: 2px solid #D6B440;
+}
+
+.bannerButtonsSeparation{
+    margin-top:30px
 }
 /*******************************/
 
