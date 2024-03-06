@@ -5,11 +5,11 @@
         <meta name="author" content="Alejandro Perez">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Educación financiera</title>
-        <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+        <link rel="icon" type="image/x-icon" href="images/favicon.svg">
         <!-- Bootstrap 5.3.2 -->
         <link href="./css/librerias/bootstrap.min.css" rel="stylesheet" />
         <!-- Font awesome 6.5.1 -->
-        <link href="./css/librerias/all.min.css" rel="stylesheet" />        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />        
         <!-- Custom styles -->
         <link href="./css/main.css" rel="stylesheet" />        
         <!-- Google fonts -->
@@ -20,7 +20,7 @@
     </head>
     <body>
       <!-- Navbar Start  -->
-      <div id="navbarContainer" class="container-fluid">
+      <div id="navbarContainer" class="container-fluid sticky-top noPadding">
         <nav class="navbar navbar-expand-md bg-body-tertiary">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,12 +70,12 @@
             <div class="col-md-12 text-center my-auto">
               <span class="bannerTitle">¿Quieres aprender sobre finanzas?</span>
               <p class="bannerSubTitle">
-                Sigue por redes sociales mis consejos o aún mejor, obten todo el contenido para que manejes tus finanzas como un experto
+                Sigue por redes sociales mis consejos o aún mejor, obten a través de mis cursos todo el contenido para que manejes tus finanzas como un experto
               </p>
               <p>
-                <ul class="aboutmeList">
-                  <li><i class="bi bi-patch-check"></i>Aprende sobre finanzas para emprendedores.</li>
-                  <li><i class="bi bi-patch-check"></i>Aprende sobre finanzas personales...</li>                  
+                <ul class="bannerList">
+                  <li><i class="fa-regular fa-circle-check bannerIcon"></i> Aprende sobre finanzas para emprendedores.</li>
+                  <li><i class="fa-regular fa-circle-check bannerIcon"></i> Aprende sobre finanzas personales...</li>                  
                 </ul>
               </p>
               <p class="bannerButtonsSeparation">
@@ -105,45 +105,53 @@
         <div class="col-md-3">
 
 
-          <div class="card cardWidth">
-            <img src="./images/project1.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Asesoria financiera</h5>
+          <div class="card cardContainer componentSep5">
+            <img src="images/project1.svg" class="card-img-top" alt="...">
+            <div class="card-body cardBodyContainer">
+              <h5 class="card-title titulo4 text-center">Asesoria financiera</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</p>
-              <a href="#" class="btn btn-primary">Ver detalle</a>
+              <p class="projectButtonContainer text-center">
+                <a href="#" class="btn btnOutlineGeneral">Ver detalle <i class="fa-solid fa-ellipsis"></i></a>
+              </p>              
             </div>
           </div>
 
         </div>
         <div class="col-md-3">
 
-          <div class="card cardWidth">
-            <img src="./images/project2.svg" class="card-img-top" alt="...">
+          <div class="card cardContainer2 componentSep5">
+            <img src="images/project2.svg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Asesoria financiera</h5>
+              <h5 class="card-title titulo4 text-center">Asesoria financiera</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</p>
-              <a href="#" class="btn btn-primary">Ver detalle</a>
+              <p class="projectButtonContainer text-center">
+                <a href="#" class="btn btnOutlineGeneral">Ver detalle <i class="fa-solid fa-ellipsis"></i></a>
+              </p>              
             </div>
           </div>
 
         </div>
         <div class="col-md-3">
-          <div class="card cardWidth">
-            <img src="./images/project6.svg" class="card-img-top" alt="...">
+          <div class="card cardContainer3 componentSep5">
+            <img src="images/project6.svg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Asesoria financiera</h5>
+              <h5 class="card-title titulo4 text-center">Asesoria financiera</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</p>
-              <a href="#" class="btn btn-primary">Ver detalle</a>
+              <p class="projectButtonContainer text-center">
+                <a href="#" class="btn btnOutlineGeneral">Ver detalle <i class="fa-solid fa-ellipsis"></i></a>
+              </p>              
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card cardWidth">
-            <img src="./images/project4.svg" class="card-img-top" alt="...">
+          <div class="card cardContainer4 componentSep5">
+            <img src="images/project4.svg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Asesoria financiera</h5>
+              <h5 class="card-title titulo4 text-center">Asesoria financiera</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</p>
-              <a href="#" class="btn btn-primary">Ver detalle</a>
+              <p class="projectButtonContainer text-center">
+                <a href="#" class="btn btnOutlineGeneral">Ver detalle <i class="fa-solid fa-ellipsis"></i></a>
+              </p>              
             </div>
           </div>
         </div>              
@@ -174,12 +182,12 @@
                     </div>
                     <div class="testimonioCard">
                       <p>
-                        <img src="./images/cliente1.svg" class="testimonioImage testimonioPicture" alt="Testimonio de cliente1">
+                        <img src="images/cliente1.svg" class="testimonioImage testimonioPicture" alt="Testimonio de cliente1">
                       </p>
-                      <p>
-                        <i class="bi bi-quote testimonioQuoteIcon"></i>
+                      <p class="testimonyText">
+                        <i class="fa-solid fa-quote-left fa-2xl"></i>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur convallis libero, sed ultrices felis ultricies blandit.  sed ultrices felis ultricies blandit.  sed ultrices felis ultricies blandit sed ultrices felis ultricies blandit.
-                        <i class="bi bi-quote testimonioQuoteIcon"></i>
+                        <i class="fa-solid fa-quote-right fa-2xl"></i>
                       </p>
                       <p>
                         <span class="testimonioName">Luis Velez</span><br>
@@ -199,15 +207,15 @@
                     </div>
                     <div class="testimonioCard">
                       <p>
-                        <img src="./images/cliente1.svg" class="testimonioImage testimonioPicture" alt="Testimonio de cliente1">
+                        <img src="images/cliente1.svg" class="testimonioImage testimonioPicture" alt="Testimonio de cliente1">
                       </p>
                       <p>
-                        <i class="bi bi-quote testimonioQuoteIcon"></i>
+                        <i class="fa-solid fa-quote-left fa-2xl"></i>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur convallis libero, sed ultrices felis ultricies blandit.  sed ultrices felis ultricies blandit.  sed ultrices felis ultricies blandit sed ultrices felis ultricies blandit.
-                        <i class="bi bi-quote testimonioQuoteIcon"></i>
+                        <i class="fa-solid fa-quote-right fa-2xl"></i>
                       </p>
                       <p>
-                        <span class="testimonioName">Luis Velez</span><br>
+                        <span class="testimonioName">Julio Gómez</span><br>
                         <span class="testimonioRol">Gerente de startup</span>
                       </p>
                     </div>
@@ -248,11 +256,11 @@
           <div class="row rowSeparationSm">
             <div class="col-md-12">
               <div class="floatLeft">
-                <i class="bi bi-star-fill ratingStar"></i>
-                <i class="bi bi-star-fill ratingStar"></i>
-                <i class="bi bi-star-fill ratingStar"></i>                
-                <i class="bi bi-star-fill ratingStar"></i>  
-                <i class="bi bi-star-fill ratingStar"></i>  
+                <i class="fa-solid fa-star ratingStar"></i>
+                <i class="fa-solid fa-star ratingStar"></i>
+                <i class="fa-solid fa-star ratingStar"></i>
+                <i class="fa-solid fa-star ratingStar"></i>
+                <i class="fa-solid fa-star-half-stroke ratingStar"></i>  
               </div>
               <div class="opinionsLink">
                  Ver opiniones (8)
@@ -273,10 +281,10 @@
                   <p>
                     <ul class="courseAdv">
                       <li>
-                        <i class="bi bi-patch-exclamation-fill courseCharacteristicIcon"></i> Todos los módulos habilitados
+                        <i class="fa-solid fa-check courseCharacteristicIcon"></i> Todos los módulos habilitados                                  
                       </li>
                       <li>
-                        <i class="bi bi-patch-exclamation-fill courseCharacteristicIcon"></i> No se necesita renovación
+                        <i class="fa-solid fa-check courseCharacteristicIcon"></i> No se necesita renovación
                       </li>
                     </ul>                    
                   </p>                  
@@ -299,13 +307,13 @@
                   <p>
                     <ul class="courseAdv">
                       <li>
-                        <i class="bi bi-patch-exclamation-fill courseCharacteristicIcon"></i> Todos los módulos habilitados
+                        <i class="fa-solid fa-check courseCharacteristicIcon"></i> Todos los módulos habilitados
                       </li>
                       <li>
-                        <i class="bi bi-patch-exclamation-fill courseCharacteristicIcon"></i> No se necesita renovación
+                        <i class="fa-solid fa-check courseCharacteristicIcon"></i> No se necesita renovación
                       </li>
                       <li>
-                        <i class="bi bi-patch-exclamation-fill courseCharacteristicIcon"></i> Asistencia personalizada on site
+                        <i class="fa-solid fa-check courseCharacteristicIcon"></i> Asistencia personalizada 
                       </li>
                     </ul>                    
                   </p>                  
@@ -330,10 +338,10 @@
                   <div class="accordion-body">
                     <p>
                       <ul class="courseDetailsListOrientado">
-                        <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                       </ul>
                     </p>
                   </div>
@@ -348,7 +356,7 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <ul class="courseDetailsListReq">
-                      <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>                    
+                      <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>                    
                     </ul>                    
                   </div>
                 </div>
@@ -364,19 +372,19 @@
                     <div>
                       <span class="cursoModuloTitle">Módulo 1. Lorem ipsum dolor sit amet</span>
                       <ul class="list-group moduloDetalle">
-                        <li class="list-group-item"><i class="bi bi-database-fill-lock"></i> Lorem ipsum dolor sit amet</li>
-                        <li class="list-group-item"><i class="bi bi-database-fill-lock"></i> Lorem ipsum dolor sit amet</li>
-                        <li class="list-group-item"><i class="bi bi-database-fill-lock"></i> Lorem ipsum dolor sit amet</li>                        
+                        <li class="list-group-item"><i class="fa-solid fa-lock"></i> Lorem ipsum dolor sit amet</li>
+                        <li class="list-group-item"><i class="fa-solid fa-lock"></i> Lorem ipsum dolor sit amet</li>
+                        <li class="list-group-item"><i class="fa-solid fa-lock"></i> Lorem ipsum dolor sit amet</li>                        
                       </ul>
                       <span class="cursoModuloTitle">Módulo 2. Lorem ipsum dolor sit amet</span>
                       <ul class="list-group moduloDetalle">
-                        <li class="list-group-item"><i class="bi bi-database-fill-lock"></i> Lorem ipsum dolor sit amet</li>
-                        <li class="list-group-item"><i class="bi bi-database-fill-lock"></i> Lorem ipsum dolor sit amet</li>                                          
+                        <li class="list-group-item"><i class="fa-solid fa-lock"></i> Lorem ipsum dolor sit amet</li>
+                        <li class="list-group-item"><i class="fa-solid fa-lock"></i> Lorem ipsum dolor sit amet</li>                                          
                       </ul>                      
                       <span class="cursoModuloTitle">Evaluación. Lorem ipsum dolor sit amet</span>
                       <ul class="list-group moduloDetalle">
-                        <li class="list-group-item"><i class="bi bi-database-fill-lock"></i> Lorem ipsum dolor sit amet</li>
-                        <li class="list-group-item"><i class="bi bi-database-fill-lock"></i> Lorem ipsum dolor sit amet</li>                                              
+                        <li class="list-group-item"><i class="fa-solid fa-lock"></i> Lorem ipsum dolor sit amet</li>
+                        <li class="list-group-item"><i class="fa-solid fa-lock"></i> Lorem ipsum dolor sit amet</li>                                              
                       </ul>
                     </div>
                   </div>
@@ -402,7 +410,7 @@
             <div class="card-body">
               <h5 class="card-title">Plantilla 1</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-              <a href="#" class="btn btn-success">Descargar gratis <i class="bi bi-cloud-arrow-down-fill"></i></a>
+              <a href="#" class="btn btn-success">Descargar gratis <i class="fa-solid fa-download"></i></a>
             </div>            
           </div>                    
 
@@ -412,7 +420,7 @@
             <div class="card-body">
               <h5 class="card-title">Plantilla 2</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-              <a href="#" class="btn btn-success">Descargar gratis <i class="bi bi-cloud-arrow-down-fill"></i></a>
+              <a href="#" class="btn btn-success">Descargar gratis <i class="fa-solid fa-download"></i></a>
             </div>            
           </div>
         </div>
@@ -421,7 +429,7 @@
             <div class="card-body">
               <h5 class="card-title">Plantilla 3</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-              <a href="#" class="btn btn-success">$150 <i class="bi bi-cloud-arrow-down-fill"></i></a>
+              <a href="#" class="btn btn-success btnPlantilla"></a>
             </div>            
           </div>
         </div>
@@ -430,7 +438,7 @@
             <div class="card-body">
               <h5 class="card-title">Plantilla 4</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-              <a href="#" class="btn btn-success">Descargar gratis <i class="bi bi-cloud-arrow-down-fill"></i></a>
+              <a href="#" class="btn btn-success">Descargar gratis <i class="fa-solid fa-download"></i></a>
             </div>            
           </div>
         </div>
@@ -441,7 +449,7 @@
             <div class="card-body">
               <h5 class="card-title">Plantilla 5</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-              <a href="#" class="btn btn-success">$199 <i class="bi bi-cloud-arrow-down-fill"></i></a>
+              <a href="#" class="btn btn-success btnPlantilla"></a>
             </div>            
           </div>
         </div>
@@ -450,7 +458,7 @@
               <div class="card-body">
                 <h5 class="card-title">Plantilla 6</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-                <a href="#" class="btn btn-success">$499 <i class="bi bi-cloud-arrow-down-fill"></i></a>
+                <a href="#" class="btn btn-success btnPlantilla1"></a>
               </div>            
             </div>          
         </div>
@@ -459,7 +467,7 @@
               <div class="card-body">
                 <h5 class="card-title">Plantilla 7</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-                <a href="#" class="btn btn-success">Descargar gratis <i class="bi bi-cloud-arrow-down-fill"></i></a>
+                <a href="#" class="btn btn-success">Descargar gratis <i class="fa-solid fa-download"></i></a>
               </div>            
             </div>        
         </div>
@@ -468,7 +476,7 @@
             <div class="card-body">
               <h5 class="card-title">Plantilla 8</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna. Cras libero enim, efficitur scelerisque orci id</p>
-              <a href="#" class="btn btn-success">Descargar gratis <i class="bi bi-cloud-arrow-down-fill"></i></a>
+              <a href="#" class="btn btn-success">Descargar gratis <i class="fa-solid fa-download"></i></a>
             </div>            
           </div>
         </div>
@@ -501,21 +509,14 @@
                   </p>
                   <p>
                     <ul class="aboutmeList">
-                      <li><i class="bi bi-patch-check aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
-                      <li><i class="bi bi-patch-check aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
-                      <li><i class="bi bi-patch-check aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
-                      <li><i class="bi bi-patch-check aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
+                      <li><i class="fa-solid fa-medal aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
+                      <li><i class="fa-solid fa-medal aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
+                      <li><i class="fa-solid fa-medal aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
+                      <li><i class="fa-solid fa-medal aboutmeIcon"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec sem magna.</li>
                     </ul>
                   </p>
                 </div>
-              </div>              
-              <div class="row">
-                <div class="col-md-12">
-                  <p class="text-center">
-                    <button type="button" class="btn aboutmeButton">Contactame <i class="bi bi-person-lines-fill"></i></button>                    
-                  </p>
-                </div>
-              </div>                                       
+              </div>                                                                   
             </div>
           </div>
         </div>
@@ -539,8 +540,8 @@
                   </p>
                   <p>
                     <ul class="contactInfoList">
-                      <li><i class="bi bi-telephone-fill"></i> Teléfono: +52 5587586542</li>
-                      <li><i class="bi bi-envelope-fill"></i> Soporte: support@educacionfinanciera.com</li>
+                      <li><span><i class="fa-solid fa-phone-volume"></i> Teléfono: +52 5587586542</span></li>
+                      <li><i class="fa-solid fa-envelope-circle-check"></i> Soporte: support@educacionfinanciera.com</li>
                     </ul>
                   </p>
                 </div>
@@ -549,21 +550,21 @@
             <div class="col-md-6">
               <div class="row">
                 <div class="col-md-6">
-                  <label for="txtNombre" class="form-label">Nombre</label>
+                  <label for="txtNombre" class="form-label contactFormLabel">Nombre</label>
                   <input type="text" class="form-control" id="txtNombre" required>
                 </div>
                 <div class="col-md-6">
-                  <label for="txtCorreo" class="form-label">Correo electrónico</label>
-                  <input type="email" class="form-control" id="txtCorreo" placeholder="name@example.com">
+                  <label for="txtCorreo" class="form-label contactFormLabel">Correo electrónico</label>
+                  <input type="email" class="form-control" id="txtCorreo" placeholder="nombre@example.com">
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <label for="txtTelefono" class="form-label">Teléfono de contacto</label>
+                  <label for="txtTelefono" class="form-label contactFormLabel">Teléfono de contacto</label>
                   <input type="text" class="form-control" id="txtTelefono" required>
                 </div>
                 <div class="col-md-6">
-                  <label for="cmbMotivoContacto" class="form-label">Motivo de contacto</label>
+                  <label for="cmbMotivoContacto" class="form-label contactFormLabel">Motivo de contacto</label>
                   <select class="form-select" id="cmbMotivoContacto" aria-label="Default select example">
                     <option selected>Por favor, selecciona una opción</option>
                     <option value="1">Tengo preguntas, dudas, comentarios</option>
@@ -574,13 +575,13 @@
               </div>
               <div class="row">
                 <div class="col-md-12">                  
-                    <label for="taComentarios" for="taComentarios">Comentarios</label>
+                    <label for="taComentarios" class="contactFormLabel">Comentarios</label>
                     <textarea class="form-control" placeholder="Deja tu comentario y me pondré en contacto contigo" id="taComentarios"></textarea>                                      
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <button type="button" class="btn btnContacto">Quiero que me contacten <i class="bi bi-send"></i></button>
+                  <button type="button" class="btn btnContacto">Quiero que me contacten <i class="fa-regular fa-paper-plane  fa-fade"></i></button>
                 </div>
               </div>
             </div>
@@ -593,15 +594,15 @@
     <!-- Footer section start-->
     <footer class="d-flex flex-column align-items-center justify-content-center">
       <p class="footerText text-center">
-        Suscribete a mis redes sociales para estar al tanto de noticias y actualizaciones
+        Suscribete a mis redes sociales para estar al tanto de noticias, actualizaciones y nuevos consejos financieros.
       </p>
       <div class="snIcons d-flex flex-wrap align-items-center justify-content-center">      
         <span class="socialNetworksIcons d-flex d-inline-flex">
-          <a href="#" target="_blank"><i class="bi bi-tiktok"></i></a>
-          <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
-          <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
-          <a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a>          
+          <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>          
         </span>                
       </div>
       <div class="copyRightText">

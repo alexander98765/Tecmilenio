@@ -45,7 +45,7 @@
 #contenedorBanner{
     color:#FFF;
     padding:40px;
-    height: 400px;
+    /*height: 400px;*/
 }
 
 .bannerTitle{
@@ -66,6 +66,7 @@
     color:#FFF;
     font-weight: bold;
     border: 2px solid #D6B440;
+    margin-bottom: 5px;
 }
 
 .bannerButton:hover{
@@ -78,6 +79,23 @@
 .bannerButtonsSeparation{
     margin-top:30px
 }
+
+.bannerIcon{
+    color:#f08e00;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+    .bannerPicture{
+        width:380px;
+        margin-top:8%;
+    }
+}
+
+@media screen and (max-width: 789px) {
+    .bannerPicture{
+        width:350px;
+    }
+}
 /*******************************/
 
 /*Estilos para seccion sobre mi*/
@@ -88,7 +106,7 @@
 
 #contenedorSobreMi{    
     color: #FFF;
-    padding:10px;
+    padding:20px;
     margin-bottom: 6rem;
     border-radius: 15px;
 }
@@ -118,8 +136,7 @@
     background-color: #4d3269;
 }
 
-.aboutmeIcon{
-    font-size:20px;
+.aboutmeIcon{    
     color:#F1D419;
     font-weight: bold;;
 }
@@ -206,8 +223,30 @@ text-align:justify;
 transform: rotateY(180deg);
 }
 
-.cardWidth{
-    width: 18rem;
+.cardContainer2
+
+.cardContainer:hover{
+    /*width: 18rem;*/
+    border: 2px solid #00AEC6;
+}
+
+.cardContainer2:hover{
+    /*width: 18rem;*/
+    border: 2px solid #d7c3df;
+}
+
+.cardContainer3:hover{
+    /*width: 18rem;*/
+    border: 2px solid #52bef2;
+}
+
+.cardContainer4:hover{
+    /*width: 18rem;*/
+    border: 2px solid #274351;
+}
+
+.projectButtonContainer{
+    width:100%;
 }
 /*******************************/
 
@@ -244,11 +283,9 @@ transform: rotateY(180deg);
     align-items: center;
 }
 
-.testimonioText{    
-    font-size: 20px;
-    text-align: center;
-    font-family: "Share Tech Mono", monospace;
-    width: 60%;
+.testimonyText{    
+    width:75%;
+    margin:0 auto;
 }
 
 .testimonioInfo{
@@ -321,7 +358,7 @@ transform: rotateY(180deg);
 }
 
 .testimoniosHeader{
-    height:100%;
+    height:50%;
 }
 /*******************************/
 
@@ -337,6 +374,7 @@ transform: rotateY(180deg);
 
 .coursesPrices{
     border: 1px solid #dfdfdf;
+    margin-bottom: 10px;
 }
 
 .pricingHeader{
@@ -386,10 +424,6 @@ transform: rotateY(180deg);
     font-weight:bold;
 }
 
-.courseDetailsListOrientado, .courseDetailsListReq, .contactInfoList, .aboutmeList{
-    list-style-type: none;
-}
-
 .courseDetailsListOrientado i{
     color: #198754;
 }
@@ -408,7 +442,7 @@ transform: rotateY(180deg);
 
 .opinionsLink{
     font-weight:bold;
-    color:#0073D6;
+    color:#0087FF;
 }
 .opinionsLink:hover{
     color:#005CAC;
@@ -455,6 +489,24 @@ transform: rotateY(180deg);
     font-weight: bold;
     color:#FFFFFF;
     background-color: #4d3269;
+}
+
+.contactFormLabel{
+    color:#4d3269;
+    font-weight:bold;
+}
+
+.btnPlantilla::after {
+    content: "$150";
+}
+.btnPlantilla:hover::after {
+    content: "Contáctame";
+}
+.btnPlantilla1::after {
+    content: "$499";
+}
+.btnPlantilla1:hover::after {
+    content: "Contáctame";
 }
 /*********************************/
 
@@ -521,6 +573,11 @@ body{
     font-weight:bold;
 }
 
+.titulo4{
+    font-size:20px; 
+    color:#4d3269;
+}
+
 .pageTitle{
     font-weight: bold;
     font-size: 2vw;
@@ -533,6 +590,10 @@ body{
 
 .rowSeparationSm{
     margin-top:10px;
+}
+
+.componentSep5{
+    margin-top: 5px;
 }
 
 .btnOutlineGeneral{
@@ -574,6 +635,7 @@ body{
     border:1px solid #FFF;
     border-radius: 50%;
     transition: all 0.2s ease-in;
+    text-decoration: none;
 }
 
 .socialNetworksIcons a:hover{
@@ -602,5 +664,13 @@ body{
 
 .floatLeft{
     float:left;
+}
+
+.noPadding{
+    padding:0;
+}
+
+.courseDetailsListOrientado, .courseDetailsListReq, .contactInfoList, .aboutmeList, .bannerList{
+    list-style-type: none;
 }
 /*******************************/
